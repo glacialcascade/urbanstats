@@ -48,3 +48,4 @@ firstResult(test)('united states of america', 'United States of America') // sym
 firstResult(test)('san jose', 'San Jose city, California, USA', 'City')
 firstResult(test)('london', 'London Population Center, ON, Canada', 'CA Population Center')
 firstResult(test)('berlin', 'Berlin Urban Center, Germany', 'Urban Center')
+firstResult(test)('chisinau', 'Chișinău Metropolitan Cluster, Moldova' , 'Metropolitan Cluster') // should not be Chi?in?u

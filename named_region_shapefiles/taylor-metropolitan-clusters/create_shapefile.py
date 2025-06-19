@@ -627,7 +627,7 @@ def main():
     shp[[x for x in shp if x != "geometry"]].to_csv(
         "output/taylor_metropolitan_clusters.csv"
     )
-    shp.to_file("output/taylor_metropolitan_clusters.shp.zip", driver="ESRI Shapefile")
+    shp.to_file("output/taylor_metropolitan_clusters.shp.zip", driver="ESRI Shapefile", encoding="utf-8")
 
 
 if __name__ == "__main__":
